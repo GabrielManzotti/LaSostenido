@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+
+
+.header nav ul {
+
+    list-style-type: none;
+    padding-right: 80px;
+
+}
+
+.header nav ul li {
+
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 00;
+    font-size: 1.25rem;
+    margin-right: 10px;
+
+}
+
+.TamañoLogo {
+    height: 60px;
+    width: 200px;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #EEEDF0;
+}
+
+
+
+.bodyImagenPrincipal {
+    padding-top: 100px;
+    background-image: url("../imagenes varias/imagen index.jpg");
+    background-size: cover;
+    height: 25rem;
+    background-position: center;
+    position: relative;
+}
+
+
+.bodyQuienesSomos {
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.quienesSomosContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.quienesSomosCuerpoIzquierda {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.quienesSomosCuerpoIzquierda h2 {
+    padding: 30px;
+    text-align: center;
+}
+
+.quienesSomosCuerpoIzquierda p {
+    text-align: center;
+    line-height: 1, 5;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+   
+    margin-bottom: 50px;
+}
+
+
+
+
+.quienesSomosEnlace {
+    align-self: center;
+    color: black;
+    padding-right: 30px;
+}
+
+.bodyQuienesSomosImagen {
+    padding: 30px;
+    margin-right: 60px;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+.bodyNuestrosServicios {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    background-color: #4A8C86;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2;
+    text-align: center;
+    color: white
+}
+
+.NuestrosServiciosContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 50px;
+
+}
+
+.nuestrosServiciosDiseño {
+    width: 40%;
+}
+
+.nuestrosServiciosCoaching {
+    width: 40%;
+}
+
+.nuestrosServiciosAudiovisual {
+    width: 40%;
+}
+
+
+.NuestrosServiciosEnlace {
+    color: white;
+}
+
+.footer {
+   
+    padding: 30px;
+    background-color: black;
+    color: white;
+    
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.footerMapa h5{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footerMapa ul li {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+
+.footerContacto ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footerContacto h5 {
+    text-decoration: underline;
+}
+
+.footerRedesSociales h5{
+    text-decoration: underline;
+
+}
+
+
+
+/* Estilos /Contacto */
+
+.containerFormularioContacto {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.contactoBodyTitulo {
+    padding: 30px;
+}
+
+
+
+.contactoBodyFormulario form label {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.contactoBodyFormulario form input {
+    background-color: #EEEDF0;
+    border-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.5;
+}
+
+.contactoBodyFormulario form select {
+    background-color: #EEEDF0;
+}
+
+.contactoBodyFormulario form textarea {
+    margin-top: 20px;
+    background-color: #EEEDF0;
+    resize: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.5;
+}
+
+.contactoBodyMap {
+    margin-top: 150px;
+    background-color: #EEEDF0;
+
+}
+
+.contactoBodyMapContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    }
+
+.contactoBodyMapContacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactoBodyMapMapa {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.contactoBodyMap p {
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.contactoBodyMap iframe {
+    padding: 20px;
+    border-bottom: 10 px solid black;
+}
