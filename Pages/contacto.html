@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -11,7 +11,7 @@
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
     <!--Mi css-->
-    <link rel="stylesheet" href="/Pages/estilos.css">
+    <link rel="stylesheet" href="../Pages/estilos.css">
     <title> La Sostenido </title>
 </head>
 
@@ -19,43 +19,41 @@
     <header class="header">
         <section>
             <!--Logo header-->
-            <a href="../index.html"><img src="/Logo/Logo final.jpg" alt="Logo header" class="TamañoLogo">
-            </a>
-        </section>
-        <br>
-        <br>
-        <br>
-        <!-- Lista desordenada -->
-        <nav>
-            <ul class=".header nav ul">
-                <li><a href="../index.html">Nosotros</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./trabajos.html">Trabajos</a></li>
-                <li><a href="./equipo.html">Equipo</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+            <div class="headerLogo">
 
-    <section class="contactoBodyTitulo">
+                <a href="../index.html"><img src="/Logo/Logo final.jpg" alt="Logo header" class="TamañoLogo">
+                </a>
+            </div>
+        </section>
+
+        <!-- Lista desordenada -->
+        <div class="headerNav">
+            <nav>
+                <ul class=".header nav ul">
+                    <li><a href="/Pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="/Pages/servicios.html">Servicios</a></li>
+                    <li><a href="/Pages/trabajos.html">Trabajos</a></li>
+                    <li><a href="/Pages/equipo.html">Equipo</a></li>
+                    <li><a href="/Pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="bodyTitulo">
         <h1>Envianos tu consulta</h1>
     </section>
     <section class="contactoBodyFormulario">
-
         <div class="containerFormularioContacto">
-
             <div class="contactoFormularioNombre">
-
-                <form action="/" method="post">
+            <form>
+                <form action="/" method="post" class="Formulario">
                     <label for="Nombre">Nombre:</label>
-                    <input id="Nombre" type="text" required placeholder="Ingrese su nombre">
-
+                    <input id="Nombre" type="text" required placeholder="Nombre">
             </div>
             <div class="contactoFormularioEmail">
                 <label for="email">Email:</label>
                 <input id="Nombre" type="email" required placeholder="Ingrese su email">
             </div>
-
             <div class="contactoFormularioDesplegable">
                 <select name="Tema consulta" id="Tema_consulta" required>
                     <option value="Seleccione tema">Seleccione tema de consulta</option>
@@ -72,7 +70,7 @@
                 <input type="reset" value="Limpiar formulario">
                 <input type="submit" value="Enviar formulario">
             </div>
-            </form>
+        </form>
         </div>
     </section>
 
@@ -84,7 +82,9 @@
                 <p>Dirección: Ministro Brin 3072 2°B Lanús - Bs.As.</p>
             </div>
             <div class="contactoBodyMapMapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4774.39029642447!2d-58.3965665764167!3d-34.70781892471782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd187c726041%3A0x85be7c36ff94f49e!2sMinistro%20Brin%203072%2C%20B1823%20Lan%C3%BAs%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1637410369081!5m2!1ses-419!2sar" width=100% height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4774.39029642447!2d-58.3965665764167!3d-34.70781892471782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd187c726041%3A0x85be7c36ff94f49e!2sMinistro%20Brin%203072%2C%20B1823%20Lan%C3%BAs%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1637410369081!5m2!1ses-419!2sar"
+                    width=100% height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>

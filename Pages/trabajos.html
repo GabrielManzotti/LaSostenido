@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -11,7 +11,7 @@
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
     <!--Mi css-->
-    <link rel="stylesheet" href="/Pages/estilos.css">
+    <link rel="stylesheet" href="../Pages/estilos.css">
     <title> La Sostenido </title>
 </head>
 
@@ -19,83 +19,86 @@
     <header class="header">
         <section>
             <!--Logo header-->
-            <a href="../index.html"><img src="/Logo/Logo final.jpg" alt="Logo header" class="TamañoLogo">
-            </a>
+            <div class="headerLogo">
+
+                <a href="../index.html"><img src="/Logo/Logo final.jpg" alt="Logo header" class="TamañoLogo">
+                </a>
+            </div>
         </section>
-        <br>
-        <br>
-        <br>
+
         <!-- Lista desordenada -->
-        <nav>
-            <ul class=".header nav ul">
-                <li><a href="../index.html">Nosotros</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./trabajos.html">Trabajos</a></li>
-                <li><a href="./equipo.html">Equipo</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="headerNav">
+            <nav>
+                <ul class=".header nav ul">
+                    <li><a href="/Pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="/Pages/servicios.html">Servicios</a></li>
+                    <li><a href="/Pages/trabajos.html">Trabajos</a></li>
+                    <li><a href="/Pages/equipo.html">Equipo</a></li>
+                    <li><a href="/Pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <section class="bodyTitulo">
+        <h2>Layout de galeria con grid a trabajar</h2>
+    </section>
+    <section class="trabajosSeccionGaleria">
+        <div class="trabajosGaleriaGridContainer">
+            <div class="trabajoGaleriaDiv1">
+            </div>
+            <div class="trabajoGaleriaDiv2"> 2
+            </div>
+            <div class="trabajoGaleriaDiv3"> 3
+            </div>
+            <div class="trabajoGaleriaDiv4">4
+            </div>
+            <div class="trabajoGaleriaDiv5">5
+            </div>
+            <div class="trabajoGaleriaDiv6">6
+            </div>
+            <div class="trabajoGaleriaDiv7">7
+            </div>
+            <div class="trabajoGaleriaDiv8">8
+            </div>
+            <div class="trabajoGaleriaDiv9">9
+            </div>
+            <div class="trabajoGaleriaDiv10">10
+            </div>
+            <div class="trabajoGaleriaDiv11">11
+            </div>
+            <div class="trabajoGaleriaDiv12">12
+            </div>
+            <div class="trabajoGaleriaDiv13">13
+            </div>
 
+        </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <table border="1" cellpading=5 cellspacing="5">
-        <tr>
-            <th>diseño gráfico</th>
-            <th>Coaching vocal</th>
-            <th>Diseño gráfico</th>
-        </tr>
-        <tr>
-            <td>Trabajo diseño 1</td>
-            <td>Trabajo Coaching vocal 1 </td>
-            <td>Trabajo diseño gráfico 1</td>
-        </tr>
-        <tr>
-            <td>Trabajo diseño 2</td>
-            <td>Trabajo Coaching vocal 2 </td>
-            <td>Trabajo diseño gráfico 3</td>
-        </tr>
-        <tr>
-            <td>Trabajo diseño 3</td>
-            <td>Trabajo Coaching vocal 3 </td>
-            <td>Trabajo diseño gráfico 3</td>
-        </tr>
-
-
-    </table>
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    </section>
 
     <footer class="footer">
-        <h5>Mapa del sitio</h5>
-        <ul>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./servicios.html">Servicios</a></li>
-            <li><a href="./trabajos.html">Trabajos</a></li>
-            <li><a href="./equipo.html">Equipo</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-
-        <h5><a href="./contacto.html">Contacto</a></h5>
-        <ul>
-            <li type="disc">11-56927069</li>
-            <li type="disc">lasostenido@hotmail.com</li>
-            <li type="disc">Ministro Brin 3072 2°B - Lanus - Bs As</li>
-        </ul>
-        <h5>Redes sociales</h5>
-
+        <div class="footerContainer">
+            <div class="footerMapa">
+                <h5>Mapa del sitio</h5>
+                <ul>
+                    <li><a href="/Pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="/Pages/servicios.html">Servicios</a></li>
+                    <li><a href="/Pages/trabajos.html">Trabajos</a></li>
+                    <li><a href="/Pages/equipo.html">Equipo</a></li>
+                    <li><a href="/Pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footerContacto">
+                <h5><a href="./contacto.html">Contacto</a></h5>
+                <ul>
+                    <li type="disc">11-56927069</li>
+                    <li type="disc">lasostenido@hotmail.com</li>
+                    <li type="disc">Ministro Brin 3072 2°B - Lanus - Bs As</li>
+                </ul>
+            </div>
+            <div class="footerRedesSociales">
+                <h5>Redes sociales</h5>
+            </div>
+        </div>
 
     </footer>
 </body>

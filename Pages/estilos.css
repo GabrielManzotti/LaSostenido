@@ -21,16 +21,30 @@ a {
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 1;
+    height: 150px;
 }
 
+.headerNav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.headerLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
 
 .header nav ul {
 
     list-style-type: none;
-    padding-right: 80px;
 
 }
 
@@ -45,8 +59,9 @@ a {
 }
 
 .TamañoLogo {
-    height: 60px;
-    width: 200px;
+
+    height: 80px;
+    width: 250px;
 }
 
 body {
@@ -60,14 +75,14 @@ body {
     padding-top: 100px;
     background-image: url("../imagenes varias/imagen index.jpg");
     background-size: cover;
-    height: 25rem;
+    height: 700px;
     background-position: center;
     position: relative;
 }
 
 
 .bodyQuienesSomos {
-    height: 500px;
+    height: 700px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -90,6 +105,7 @@ body {
     align-items: center;
     align-content: center;
 
+
 }
 
 .quienesSomosCuerpoIzquierda h2 {
@@ -103,7 +119,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
-   
+
     margin-bottom: 50px;
 }
 
@@ -112,8 +128,13 @@ body {
 
 .quienesSomosEnlace {
     align-self: center;
-    color: black;
+    color: white;
     padding-right: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #4A8C86;
+    border-radius: 50px;
+
 }
 
 .bodyQuienesSomosImagen {
@@ -121,13 +142,15 @@ body {
     margin-right: 60px;
     max-width: 100%;
     width: 100%;
+
 }
 
 
 
 .bodyNuestrosServicios {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: solid 3px black;
@@ -144,37 +167,53 @@ body {
 .NuestrosServiciosContainer {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 50px;
-
+    justify-content: center;
+    height: 400px;
+    align-items: center;
 }
 
 .nuestrosServiciosDiseño {
-    width: 40%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
 }
 
 .nuestrosServiciosCoaching {
-    width: 40%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .nuestrosServiciosAudiovisual {
-    width: 40%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 
 .NuestrosServiciosEnlace {
-    color: white;
+    color: whblite;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    border-radius: 50px;
 }
 
 .footer {
-   
+
     padding: 30px;
     background-color: black;
     color: white;
-    
+
 }
 
-.footerContainer{
+.footerContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -183,7 +222,7 @@ body {
     justify-content: space-evenly;
 }
 
-.footerMapa h5{
+.footerMapa h5 {
     text-align: center;
     text-decoration: underline;
 }
@@ -191,7 +230,7 @@ body {
 .footerMapa ul li {
     text-decoration: none;
     list-style-type: none;
-    
+
 }
 
 
@@ -205,30 +244,94 @@ body {
     text-decoration: underline;
 }
 
-.footerRedesSociales h5{
+.footerRedesSociales h5 {
     text-decoration: underline;
 
 }
 
 
 
+
 /* Estilos /Contacto */
 
-.containerFormularioContacto {
-    display:flex;
+.contactoBodyFormulario {
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-
-
-
-.contactoBodyTitulo {
+.containerFormularioContacto {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     padding: 30px;
+    width: 100%;
+    align-content: str;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
 }
 
 
+.bodyTitulo {
+    padding: 30px;
+    background-color: #4A8C86;
+    color: white;
+    margin-top: 20px;
+}
+
+.contactoFormularioNombre {
+    padding: 10px;
+    background-color: #EEEDF0;
+    border-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.5;
+
+}
+
+.contactoFormularioNombre label {
+    display: none;
+}
+
+.contactoFormularioEmail {
+    padding: 10px;
+    background-color: #EEEDF0;
+    border-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.5;
+
+}
+
+.contactoFormularioEmail label {
+    display: none;
+}
+
+.contactoFormularioEmail input {}
+
+.contactoFormularioDesplegable {
+    padding: 10px;
+}
+
+.contactoFormularioTextArea {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #EEEDF0;
+    resize: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.5;
+}
 
 .contactoBodyFormulario form label {
     font-size: 1rem;
@@ -237,7 +340,7 @@ body {
 
 }
 
-.contactoBodyFormulario form input {
+/* .contactoBodyFormulario form input {
     background-color: #EEEDF0;
     border-color: black;
     border-top: 0;
@@ -245,8 +348,8 @@ body {
     border-right: 0;
     border-bottom: 0.5;
 }
-
-.contactoBodyFormulario form select {
+ */
+/* .contactoBodyFormulario form select {
     background-color: #EEEDF0;
 }
 
@@ -259,7 +362,7 @@ body {
     border-right: 0;
     border-bottom: 0.5;
 }
-
+ */
 .contactoBodyMap {
     margin-top: 150px;
     background-color: #EEEDF0;
@@ -269,7 +372,7 @@ body {
 .contactoBodyMapContainer {
     display: flex;
     flex-flow: column nowrap;
-    }
+}
 
 .contactoBodyMapContacto {
     display: flex;
@@ -293,4 +396,173 @@ body {
 .contactoBodyMap iframe {
     padding: 20px;
     border-bottom: 10 px solid black;
+}
+
+
+/* trabajos.html */
+
+.trabajosSeccionGaleria {
+    height: 500px;
+}
+
+.trabajosGaleriaGridContainer {
+    margin-top: 100px;
+    display: grid;
+    height: 400px;
+    grid-template-areas:
+    "foto1 foto2 foto3 foto4" 
+    "foto1 foto5 foto6 foto7"
+    "foto8 foto5 foto9 foto7"
+    "foto10 foto11 foto11 foto12"
+    "foto13 foto11 foto11 foto12"
+}
+
+.trabajosGaleriaGridContainer div {
+    border: 1px solid black;
+    color: white;
+    background-color: lightblue;
+}
+
+.trabajoGaleriaDiv1 {
+   grid-area: foto1;
+}
+
+.trabajoGaleriaDiv2 {
+    grid-area: foto2;
+}
+
+.trabajoGaleriaDiv3 {
+    grid-area: foto3
+}
+.trabajoGaleriaDiv4 {
+    grid-area: foto4
+}
+.trabajoGaleriaDiv5 {
+    grid-area: foto5
+}
+.trabajoGaleriaDiv6 {
+    grid-area: foto6
+}
+.trabajoGaleriaDiv7 {
+    grid-area: foto7
+}
+.trabajoGaleriaDiv8 {
+    grid-area: foto8
+}
+.trabajoGaleriaDiv9 {
+    grid-area: foto9
+}
+.trabajoGaleriaDiv10 {
+    grid-area: foto10
+}
+.trabajoGaleriaDiv11 {
+    grid-area: foto11
+}
+.trabajoGaleriaDiv12 {
+    grid-area: foto12
+}
+.trabajoGaleriaDiv13 {
+    grid-area: foto13;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .quienesSomosContainer {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+
+    .bodyQuienesSomos {
+        height: 900px;
+
+    }
+
+    .quienesSomosCuerpoIzquierda {
+        order: 2;
+    }
+
+    .quienesSomosCuerpoIzquierda p {
+        width: 75%;
+    }
+
+
+
+
+    .quienesSomosCuerpoIzquierda {
+        width: 100%;
+    }
+
+    .header nav ul {
+
+        width: 100%;
+    }
+
+    .NuestrosServiciosContainer {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+
+    .nuestrosServiciosDiseño {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nuestrosServiciosCoaching {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nuestrosServiciosAudiovisual {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 758px) {
+
+    .TamañoLogo {
+        display: none;
+    }
+
+
+    .bodyQuienesSomos {
+        height: 900px;
+
+    }
+
+
+    .bodyNuestrosServicios {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 900px;
+    }
+
+    .NuestrosServiciosContainer {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
 }

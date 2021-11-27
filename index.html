@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
+<!-- head -->
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <!--Mi css-->
-    <link rel="stylesheet" href="/Pages/estilos.css">
+    <link rel="stylesheet" href="./Pages/estilos.css">
     <title> La Sostenido </title>
 </head>
 
@@ -26,22 +27,25 @@
     <header class="header">
         <section>
             <!--Logo header-->
-            <a href="./index.html"><img src="/Logo/Logo final.jpg" alt="Logo header" class="TamañoLogo">
-            </a>
+            <div class="headerLogo">
+
+                <a href="./index.html"><img src="./Logo/Logo final.jpg" alt="Logo header" class="TamañoLogo">
+                </a>
+            </div>
         </section>
-        <br>
-        <br>
-        <br>
+
         <!-- Lista desordenada -->
-        <nav>
-            <ul class=".header nav ul">
-                <li><a href="#QuienesSomos">Nosotros</a></li>
-                <li><a href="#NuestrosServicios">Servicios</a></li>
-                <li><a href="./Pages/trabajos.html">Trabajos</a></li>
-                <li><a href="./Pages/equipo.html">Equipo</a></li>
-                <li><a href="./Pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="headerNav">
+            <nav>
+                <ul class=".header nav ul">
+                    <li><a href="#QuienesSomos">Nosotros</a></li>
+                    <li><a href="#NuestrosServicios">Servicios</a></li>
+                    <li><a href="./Pages/trabajos.html">Trabajos</a></li>
+                    <li><a href="./Pages/equipo.html">Equipo</a></li>
+                    <li><a href="./Pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section class="bodyImagenPrincipal">
         <!--<img src="./Imagenes varias/imagen index22.jpg" class= "" alt="Imagen principal index"> -->
@@ -106,28 +110,28 @@
 
     <footer class="footer">
         <div class="footerContainer">
-        <div class="footerMapa">
-            <h5>Mapa del sitio</h5>
-            <ul>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./trabajos.html">Trabajos</a></li>
-                <li><a href="./equipo.html">Equipo</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+            <div class="footerMapa">
+                <h5>Mapa del sitio</h5>
+                <ul>
+                    <li><a href="./Pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="./Pages/servicios.html">Servicios</a></li>
+                    <li><a href="./Pages/trabajos.html">Trabajos</a></li>
+                    <li><a href="./Pages/equipo.html">Equipo</a></li>
+                    <li><a href="./Pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footerContacto">
+                <h5><a href="./contacto.html">Contacto</a></h5>
+                <ul>
+                    <li type="disc">11-56927069</li>
+                    <li type="disc">lasostenido@hotmail.com</li>
+                    <li type="disc">Ministro Brin 3072 2°B - Lanus - Bs As</li>
+                </ul>
+            </div>
+            <div class="footerRedesSociales">
+                <h5>Redes sociales</h5>
+            </div>
         </div>
-        <div class="footerContacto">
-            <h5><a href="./contacto.html">Contacto</a></h5>
-            <ul>
-                <li type="disc">11-56927069</li>
-                <li type="disc">lasostenido@hotmail.com</li>
-                <li type="disc">Ministro Brin 3072 2°B - Lanus - Bs As</li>
-            </ul>
-        </div>
-        <div class="footerRedesSociales">
-            <h5>Redes sociales</h5>
-        </div>
-    </div>
 
     </footer>
 
