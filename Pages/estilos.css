@@ -73,7 +73,7 @@ body {
 
 .bodyImagenPrincipal {
     padding-top: 100px;
-    background-image: url("../imagenes varias/imagen index.jpg");
+    background-image: url('../imagenes varias/imagen index.jpg');
     background-size: cover;
     height: 700px;
     background-position: center;
@@ -240,7 +240,7 @@ body {
     list-style-type: none;
 }
 
-.footerContacto h5 {
+.footerContactogi h5 {
     text-decoration: underline;
 }
 
