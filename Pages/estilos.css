@@ -26,6 +26,17 @@ a {
     height: 150px;
 }
 
+.bgHeader {
+    background-color: black; 
+    
+}
+
+.marginRigthHeader{
+    margin-right: 7%;
+    font-size: 1.50rem;
+    font-family: 'Barlow', sans-serif;
+}
+
 .headerNav {
     width: 50%;
     display: flex;
@@ -58,10 +69,9 @@ a {
 
 }
 
-.TamañoLogo {
+.marginLogo {
 
-    height: 80px;
-    width: 250px;
+    margin-left: 15px; 
 }
 
 body {
@@ -77,7 +87,7 @@ body {
     background-size: cover;
     height: 701px;
     background-position: center;
-    /* position: relative; */
+    
 }
 
 
@@ -133,8 +143,15 @@ body {
     border: 1px solid black;
     padding: 10px;
     background-color: #4A8C86;
-    border-radius: 50px;
+    border-radius: 15px;
+    transition: transform 5sg;
+    height: 40px;
+}
 
+.quienesSomosEnlace:hover {
+    color: black;
+    background-color: black;
+    
 }
 
 .bodyQuienesSomosImagen {
@@ -197,12 +214,26 @@ body {
 }
 
 
-.NuestrosServiciosEnlace {
-    color: whblite;
+.nuestrosServiciosEnlace {
+      color: whblite;
     border: 1px solid black;
-    padding: 10px;
+  
     background-color: black;
-    border-radius: 50px;
+    align-self: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    height: 40px;
+    
+}
+
+.nuestrosServiciosEnlace:hover {
+    color:black;
+    background-color: #4A8C86;
+    
+
 }
 
 .footer {

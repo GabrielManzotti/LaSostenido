@@ -18,34 +18,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+
+    <!-- Css boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--Mi css-->
     <link rel="stylesheet" href="./Pages/estilos.css">
     <title> La Sostenido </title>
 </head>
 
 <body>
-    <header class="header">
-        <section>
-            <!--Logo header-->
-            <div class="headerLogo">
+    <header class="sticky-top">
 
-                <a href="./index.html"><img src="./Logo/Logo final.jpg" alt="Logo header" class="TamañoLogo">
-                </a>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bgHeader ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./Logo/Logo final.jpg" alt="Logo header"
+                        class="img-fluid marginLogo" width="300px" height="300px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto pe-5 mb-2 mb-lg-0 marginRigthHeader">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Nosotros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#QuienesSomos">¿Quienes somos?</a></li>
+                                <li><a class="dropdown-item" href="./Pages/nosotros.html">Nosotros</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#NuestrosServicios">Servicios</a></li>
+                                <li><a class="dropdown-item" href="./Pages/servicios.html">Nuestros servicios</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Pages/trabajos.html">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Pages/equipo.html">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Pages/contacto.html">Contacto</a>
+                        </li>
+
+
+
+                    </ul>
+
+                </div>
             </div>
-        </section>
+        </nav>
 
-        <!-- Lista desordenada -->
-        <div class="headerNav">
-            <nav>
-                <ul class=".header nav ul">
-                    <li><a href="#QuienesSomos">Nosotros</a></li>
-                    <li><a href="#NuestrosServicios">Servicios</a></li>
-                    <li><a href="./Pages/trabajos.html">Trabajos</a></li>
-                    <li><a href="./Pages/equipo.html">Equipo</a></li>
-                    <li><a href="./Pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
     <section class="bodyImagenPrincipal">
         <!--<img src="./Imagenes varias/imagen index22.jpg" class= "" alt="Imagen principal index"> -->
@@ -65,8 +100,8 @@
                     and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                     1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     It has survived not only fiv</p>
-                <div>
-                    <a class="quienesSomosEnlace" href="Pages/equipo.html">CONOCÉ EL EQUIPO </a>
+                <div class="quienesSomosEnlace">
+                    <a href="Pages/equipo.html">CONOCÉ EL EQUIPO </a>
                 </div>
             </div>
 
@@ -104,7 +139,9 @@
                     propio.</p>
             </div>
         </div>
-        <b><a href="./Pages/trabajos.html" class="NuestrosServiciosEnlace"> CONOCÉ MÁS</a>
+        <div class="nuestrosServiciosEnlace">
+            <b><a href="./Pages/trabajos.html"> CONOCÉ MÁS</a>
+        </div>
     </section>
 
 
@@ -134,7 +171,9 @@
         </div>
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
