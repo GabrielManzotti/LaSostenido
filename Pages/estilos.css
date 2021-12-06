@@ -27,11 +27,11 @@ a {
 }
 
 .bgHeader {
-    background-color: black; 
-    
+    background-color: black;
+
 }
 
-.marginRigthHeader{
+.marginRigthHeader {
     margin-right: 7%;
     font-size: 1.50rem;
     font-family: 'Barlow', sans-serif;
@@ -71,7 +71,7 @@ a {
 
 .marginLogo {
 
-    margin-left: 15px; 
+    margin-left: 15px;
 }
 
 body {
@@ -87,7 +87,7 @@ body {
     background-size: cover;
     height: 701px;
     background-position: center;
-    
+
 }
 
 
@@ -151,23 +151,24 @@ body {
 .quienesSomosEnlace:hover {
     color: black;
     background-color: black;
-    
+
 }
 
 .bodyQuienesSomosImagen {
-    padding: 30px;
+   
     margin-right: 60px;
+    
     max-width: 100%;
     width: 100%;
 
 }
 
 
-
 .bodyNuestrosServicios {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: solid 3px black;
@@ -181,6 +182,11 @@ body {
     color: white
 }
 
+.bodyNuestrosServicios h2 {
+    padding: 30px;
+}
+
+
 .NuestrosServiciosContainer {
     display: flex;
     flex-direction: row;
@@ -192,32 +198,66 @@ body {
 }
 
 .nuestrosServiciosDiseño {
-    width: 30%;
+    width: 29%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-around;
+
+
+}
+
+.imagenServiciosCoaching {
+    height: 105px;
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+
+.imagenServiciosDiseño {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.imagenServiciosAudiovisual {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.nuestrosServiciosAudiovisual {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.paddingServicios {
+    padding: 15px;
 
 }
 
 .nuestrosServiciosCoaching {
-    width: 30%;
+    width: 29%;
+    padding-left: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-}
+    align-items: center;
 
-.nuestrosServiciosAudiovisual {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+
 }
 
 
 .nuestrosServiciosEnlace {
-      color: whblite;
+    color: whblite;
     border: 1px solid black;
-  
     background-color: black;
     align-self: center;
     color: white;
@@ -226,13 +266,15 @@ body {
     padding-right: 10px;
     border-radius: 15px;
     height: 40px;
-    
+    margin-bottom: 20px;
+    margin-top:30px;
+
 }
 
 .nuestrosServiciosEnlace:hover {
-    color:black;
+    color: black;
     background-color: #4A8C86;
-    
+
 
 }
 
@@ -247,10 +289,25 @@ body {
 .footerContainer {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: flex-start;
     align-content: center;
     justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+.footerMapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.paddingNone {
+    padding: 0%;
+
 }
 
 .footerMapa h5 {
@@ -262,21 +319,35 @@ body {
     text-decoration: none;
     list-style-type: none;
 
+
+
 }
 
+
+.footerContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 
 .footerContacto ul li {
     text-decoration: none;
     list-style-type: none;
+
 }
 
-.footerContactogi h5 {
+.footerContacto h5 {
     text-decoration: underline;
 }
 
 .footerRedesSociales h5 {
     text-decoration: underline;
+
+}
+
+.logoRSFooter {
+    padding: 5px;
 
 }
 
@@ -441,11 +512,11 @@ body {
     display: grid;
     height: 400px;
     grid-template-areas:
-    "foto1 foto2 foto3 foto4" 
-    "foto1 foto5 foto6 foto7"
-    "foto8 foto5 foto9 foto7"
-    "foto10 foto11 foto11 foto12"
-    "foto13 foto11 foto11 foto12"
+        "foto1 foto2 foto3 foto4"
+        "foto1 foto5 foto6 foto7"
+        "foto8 foto5 foto9 foto7"
+        "foto10 foto11 foto11 foto12"
+        "foto13 foto11 foto11 foto12"
 }
 
 .trabajosGaleriaGridContainer div {
@@ -455,7 +526,7 @@ body {
 }
 
 .trabajoGaleriaDiv1 {
-   grid-area: foto1;
+    grid-area: foto1;
 }
 
 .trabajoGaleriaDiv2 {
@@ -465,33 +536,43 @@ body {
 .trabajoGaleriaDiv3 {
     grid-area: foto3
 }
+
 .trabajoGaleriaDiv4 {
     grid-area: foto4
 }
+
 .trabajoGaleriaDiv5 {
     grid-area: foto5
 }
+
 .trabajoGaleriaDiv6 {
     grid-area: foto6
 }
+
 .trabajoGaleriaDiv7 {
     grid-area: foto7
 }
+
 .trabajoGaleriaDiv8 {
     grid-area: foto8
 }
+
 .trabajoGaleriaDiv9 {
     grid-area: foto9
 }
+
 .trabajoGaleriaDiv10 {
     grid-area: foto10
 }
+
 .trabajoGaleriaDiv11 {
     grid-area: foto11
 }
+
 .trabajoGaleriaDiv12 {
     grid-area: foto12
 }
+
 .trabajoGaleriaDiv13 {
     grid-area: foto13;
 }
@@ -541,6 +622,7 @@ body {
         flex-flow: column;
         align-items: center;
         justify-content: space-evenly;
+        height: 1000px;
 
     }
 
@@ -567,7 +649,7 @@ body {
 
 
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 800px) {
 
     .TamañoLogo {
         display: none;
@@ -585,7 +667,7 @@ body {
         flex-flow: column;
         align-items: center;
         justify-content: space-evenly;
-        height: 900px;
+        height: 1300px;
     }
 
     .NuestrosServiciosContainer {
@@ -593,6 +675,7 @@ body {
         flex-flow: column;
         align-items: center;
         justify-content: space-evenly;
+        height: 5000px;
 
     }
 
