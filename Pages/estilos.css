@@ -139,13 +139,17 @@ body {
 .quienesSomosEnlace {
     align-self: center;
     color: white;
+    
     padding-right: 30px;
     border: 1px solid black;
     padding: 10px;
     background-color: #4A8C86;
     border-radius: 15px;
     transition: transform 5sg;
-    height: 40px;
+    height: 50px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
 }
 
 .quienesSomosEnlace:hover {
@@ -153,6 +157,8 @@ body {
     background-color: black;
 
 }
+
+
 
 .bodyQuienesSomosImagen {
    
@@ -224,7 +230,8 @@ body {
 .imagenServiciosAudiovisual {
     width: 100px;
     height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+
 }
 
 
@@ -236,7 +243,9 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    
 }
+
 
 .paddingServicios {
     padding: 15px;
@@ -250,32 +259,24 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-
-
 }
 
-
-.nuestrosServiciosEnlace {
-    color: whblite;
-    border: 1px solid black;
-    background-color: black;
-    align-self: center;
-    color: white;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 15px;
-    height: 40px;
-    margin-bottom: 20px;
-    margin-top:30px;
-
-}
-
-.nuestrosServiciosEnlace:hover {
+.btn:hover {
+    background-color: white;
     color: black;
-    background-color: #4A8C86;
+}
 
+.buttonRadiousAndMore {
+    border-radius: 6px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
 
+.divEnlaceServicios {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
 }
 
 .footer {
@@ -318,9 +319,6 @@ body {
 .footerMapa ul li {
     text-decoration: none;
     list-style-type: none;
-
-
-
 }
 
 
@@ -383,7 +381,7 @@ body {
 
 .bodyTitulo {
     padding: 30px;
-    background-color: #4A8C86;
+    background-image: linear-gradient(to left top, #4a8c86, #4a8c86, #4a8c86, #4a8c86, #4a8c86, #44827d, #3e7873, #386e6a, #2b5955, #1e4541, #12312f, #071f1d);
     color: white;
     margin-top: 20px;
 }
@@ -442,29 +440,7 @@ body {
 
 }
 
-/* .contactoBodyFormulario form input {
-    background-color: #EEEDF0;
-    border-color: black;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0.5;
-}
- */
-/* .contactoBodyFormulario form select {
-    background-color: #EEEDF0;
-}
 
-.contactoBodyFormulario form textarea {
-    margin-top: 20px;
-    background-color: #EEEDF0;
-    resize: none;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0.5;
-}
- */
 .contactoBodyMap {
     margin-top: 150px;
     background-color: #EEEDF0;
@@ -644,6 +620,10 @@ body {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    .divEnlaceServicios {
+        margin-top: 0%;
+    }
 }
 
 
@@ -678,5 +658,10 @@ body {
         height: 5000px;
 
     }
+
+    .divEnlaceServicios {
+        margin-top: 0%;
+    }
+
 
 }
