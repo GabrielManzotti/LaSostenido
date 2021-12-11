@@ -424,7 +424,7 @@ body {
     .containerPrincipal {
         display: flex;
         flex-direction: column;
-        flex-wrap: rap;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
         align-content: space-around;
