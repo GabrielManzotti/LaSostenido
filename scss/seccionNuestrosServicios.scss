@@ -1,0 +1,107 @@
+
+.bodyNuestrosServicios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    background-color: #4A8C86;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2;
+    text-align: center;
+    color: white;
+
+    h2 {
+        padding: 30px;
+    }
+
+
+}
+
+.NuestrosServiciosContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+
+.nuestrosServiciosDiseño {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+.imagenServiciosCoaching {
+    height: 105px;
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+
+.imagenServiciosDiseño {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.imagenServiciosAudiovisual {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+
+}
+
+
+.nuestrosServiciosAudiovisual {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+
+.paddingServicios {
+    padding: 15px;
+
+}
+
+.nuestrosServiciosCoaching {
+    width: 29%;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttonRadiousAndMore {
+    border-radius: 6px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.divEnlaceServicios {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+

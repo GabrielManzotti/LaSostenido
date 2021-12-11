@@ -1,0 +1,50 @@
+
+
+.bodyQuienesSomos {
+    height: 700px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.quienesSomosContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.quienesSomosCuerpoIzquierda {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    h2 {
+        padding: 30px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1, 5;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 500;
+        font-size: 1.25rem;
+    
+        margin-bottom: 50px;
+    }
+    
+}
+
+
+.bodyQuienesSomosImagen {
+    margin-right: 60px;
+    max-width: 100%;
+    width: 100%;
+}
+

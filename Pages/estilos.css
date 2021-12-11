@@ -10,21 +10,7 @@ a {
 
 }
 
-.header {
-    background-color: black;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    height: 150px;
-}
+
 
 .bgHeader {
     background-color: black;
@@ -35,38 +21,6 @@ a {
     margin-right: 7%;
     font-size: 1.50rem;
     font-family: 'Barlow', sans-serif;
-}
-
-.headerNav {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.headerLogo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.header nav ul {
-
-    list-style-type: none;
-
-}
-
-.header nav ul li {
-
-    display: inline-block;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 00;
-    font-size: 1.25rem;
-    margin-right: 10px;
-
 }
 
 .marginLogo {
@@ -133,37 +87,10 @@ body {
     margin-bottom: 50px;
 }
 
-
-
-
-.quienesSomosEnlace {
-    align-self: center;
-    color: white;
-    
-    padding-right: 30px;
-    border: 1px solid black;
-    padding: 10px;
-    background-color: #4A8C86;
-    border-radius: 15px;
-    transition: transform 5sg;
-    height: 50px;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
-    font-size: 1.25rem;
-}
-
-.quienesSomosEnlace:hover {
-    color: black;
-    background-color: black;
-
-}
-
-
-
 .bodyQuienesSomosImagen {
-   
+
     margin-right: 60px;
-    
+
     max-width: 100%;
     width: 100%;
 
@@ -243,7 +170,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    
+
 }
 
 
@@ -276,7 +203,7 @@ body {
 .divEnlaceServicios {
     margin-top: 40px;
     margin-bottom: 20px;
-    
+
 }
 
 .footer {
@@ -354,30 +281,6 @@ body {
 
 /* Estilos /Contacto */
 
-.contactoBodyFormulario {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.containerFormularioContacto {
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    width: 100%;
-    align-content: str;
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-}
-
 
 .bodyTitulo {
     padding: 30px;
@@ -386,89 +289,108 @@ body {
     margin-top: 20px;
 }
 
-.contactoFormularioNombre {
-    padding: 10px;
-    background-color: #EEEDF0;
+
+
+
+.containerPrincipal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.sectionFormulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.containerFormularioContacto {
+    padding: 30px;
+    width: 650px;
+
+}
+
+.form-control::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.labelBGAndMore {
     border-color: black;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0.5;
-
 }
-
-.contactoFormularioNombre label {
-    display: none;
-}
-
-.contactoFormularioEmail {
-    padding: 10px;
-    background-color: #EEEDF0;
-    border-color: black;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0.5;
-
-}
-
-.contactoFormularioEmail label {
-    display: none;
-}
-
-/* .contactoFormularioEmail input {} */
-
-.contactoFormularioDesplegable {
-    padding: 10px;
-}
-
-.contactoFormularioTextArea {
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #EEEDF0;
-    resize: none;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0.5;
-}
-
-.contactoBodyFormulario form label {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 10px;
-
-}
-
 
 .contactoBodyMap {
-    margin-top: 150px;
+    margin-top: 50px;
     background-color: #EEEDF0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    width: 50%;
 
 }
+
+
 
 .contactoBodyMapContainer {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
 }
 
 .contactoBodyMapContacto {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+
 }
+
+
+
+.divContacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
 
 .contactoBodyMapMapa {
     width: 100%;
-    height: 100%;
-    position: relative;
+    height: 80%;
+    border: 1px solid black;
+
 }
 
 .contactoBodyMap p {
+
     font-size: 1rem;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: 'Barlow', sans-serif;
+
 }
 
 .contactoBodyMap iframe {
@@ -479,85 +401,15 @@ body {
 
 /* trabajos.html */
 
-.trabajosSeccionGaleria {
-    height: 500px;
-}
-
-.trabajosGaleriaGridContainer {
-    margin-top: 100px;
-    display: grid;
-    height: 400px;
-    grid-template-areas:
-        "foto1 foto2 foto3 foto4"
-        "foto1 foto5 foto6 foto7"
-        "foto8 foto5 foto9 foto7"
-        "foto10 foto11 foto11 foto12"
-        "foto13 foto11 foto11 foto12"
-}
-
-.trabajosGaleriaGridContainer div {
-    border: 1px solid black;
-    color: white;
-    background-color: lightblue;
-}
-
-.trabajoGaleriaDiv1 {
-    grid-area: foto1;
-}
-
-.trabajoGaleriaDiv2 {
-    grid-area: foto2;
-}
-
-.trabajoGaleriaDiv3 {
-    grid-area: foto3
-}
-
-.trabajoGaleriaDiv4 {
-    grid-area: foto4
-}
-
-.trabajoGaleriaDiv5 {
-    grid-area: foto5
-}
-
-.trabajoGaleriaDiv6 {
-    grid-area: foto6
-}
-
-.trabajoGaleriaDiv7 {
-    grid-area: foto7
-}
-
-.trabajoGaleriaDiv8 {
-    grid-area: foto8
-}
-
-.trabajoGaleriaDiv9 {
-    grid-area: foto9
-}
-
-.trabajoGaleriaDiv10 {
-    grid-area: foto10
-}
-
-.trabajoGaleriaDiv11 {
-    grid-area: foto11
-}
-
-.trabajoGaleriaDiv12 {
-    grid-area: foto12
-}
-
-.trabajoGaleriaDiv13 {
-    grid-area: foto13;
+.trabajosContainerPrincipal {
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 
 
 
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 
     .quienesSomosContainer {
         display: flex;
@@ -567,6 +419,38 @@ body {
 
     }
 
+
+
+    .containerPrincipal {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: rap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-around;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .contactoBodyMap {
+        width: 800px;
+
+
+    }
+
+    .contactoBodyMapMapa {
+
+        width: 800px;
+        
+    }
+
+    .contactoBodyMapContacto {
+        width: 100%;
+        display: flex;
+        flex: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
 
     .bodyQuienesSomos {
         height: 900px;
@@ -664,4 +548,28 @@ body {
     }
 
 
+    .contactoBodyMapContacto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+
+    }
+
+    .contactoBodyMapMapa {
+
+        width: 400px;
+        
+    }
+
+    .containerFormularioContacto{
+     margin-top: 40px;
+        width: 500px;
+    }
+
+    .containerPrincipal {
+        height: 1300px;
+    }
 }
