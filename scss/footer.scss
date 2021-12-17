@@ -42,9 +42,7 @@
 
 
 .footerContacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    @extend .footerMapa;
 
     ul li {
         text-decoration: none;

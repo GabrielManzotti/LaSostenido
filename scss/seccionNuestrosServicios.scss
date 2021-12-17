@@ -79,12 +79,7 @@
 }
 
 .nuestrosServiciosCoaching {
-    width: 29%;
-    padding-left: 25px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+   @extend .nuestrosServiciosAudiovisual;
 }
 
 .btn:hover {
