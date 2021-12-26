@@ -104,7 +104,6 @@ body {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: solid 3px black;
     border-bottom: solid 3px black;
     background-color: #4A8C86;
     font-family: 'Barlow', sans-serif;
@@ -375,6 +374,8 @@ body {
 
 
 
+
+
 .contactoBodyMapMapa {
     width: 100%;
     height: 80%;
@@ -405,6 +406,39 @@ body {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+/* equipo.html */
+
+.sectionEquipo {
+    height: 900px;
+
+}
+
+.containerEquipo {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.bodyCardEquipo {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4A8C86;
+    height: 150px;
+    color: white;
+}
+
+.divCard:hover {
+    border: 2px solid black;
+
+    color: white;
+}
+
+
 
 
 
@@ -441,7 +475,7 @@ body {
     .contactoBodyMapMapa {
 
         width: 800px;
-        
+
     }
 
     .contactoBodyMapContacto {
@@ -513,6 +547,13 @@ body {
 
 
 
+
+
+
+
+
+/* Medias queries */
+
 @media screen and (max-width: 800px) {
 
     .TamañoLogo {
@@ -561,11 +602,11 @@ body {
     .contactoBodyMapMapa {
 
         width: 400px;
-        
+
     }
 
-    .containerFormularioContacto{
-     margin-top: 40px;
+    .containerFormularioContacto {
+        margin-top: 40px;
         width: 500px;
     }
 
