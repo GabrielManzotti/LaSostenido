@@ -116,6 +116,7 @@ body {
 
 .bodyNuestrosServicios h2 {
     padding: 30px;
+
 }
 
 
@@ -407,40 +408,97 @@ body {
     margin-bottom: 40px;
 }
 
-/* equipo.html */
+/* servicios html */
 
-.sectionEquipo {
-    height: 900px;
-
+.sectionDiseñoGrafico {
+    margin-top: 50px;
+    height: 380px;
+    background-color: #EEEDF0;
 }
 
-.containerEquipo {
-    margin-top: 20px;
-    padding: 20px;
+.containerDiseñoGrafico {
+    height: 350px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.bodyCardEquipo {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+.imagenDiseñoGrafico {
+    margin-left: 20px;
+}
+
+.imagenDiseñoGrafico:hover {
+    opacity: 0.7;
+    
+}
+
+.cuerpoTextoDiseñoGrafico h5 {
+
+    font-weight: bold;
+}
+
+.tituloDiseñoGrafico {
+    width: 200px;
+    border-bottom: solid 1px black;
+    margin-bottom: 20px;
+}
+
+.cuerpoTextoDiseñoGrafico {
+    width: 700px;
+    margin-left: 70px;
+}
+
+.buttonServicios {
+    margin-top: 20px;
+}
+
+.sectionCoachingVocal {
+    height: 400px;
     background-color: #4A8C86;
-    height: 150px;
-    color: white;
+    
 }
 
-.divCard:hover {
-    border: 2px solid black;
+.containerCoachingVocal {
+    height: 380px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 
-    color: white;
+.cuerpoTextoCoachingVocal {
+    width: 700px;
+    margin-left: 70px;
+    color: #EEEDF0;
+}
+
+.tituloCoachingVocal {
+    width: 200px;
+    border-bottom: solid 1px #EEEDF0;
+    margin-bottom: 20px;
+}
+
+.cuerpoTextoCoachingVocal h5 {
+    font-weight: bold;
 }
 
 
+.sectionProduccionAudiovisual {
+    height: 400px;
+    background-color: #EEEDF0;
+}
 
-
+.containerProduccionAudiovisual {
+    height: 380px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 
 
 @media screen and (max-width: 1300px) {
@@ -542,17 +600,63 @@ body {
     .divEnlaceServicios {
         margin-top: 0%;
     }
+
+    .containerDiseñoGrafico {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .sectionDiseñoGrafico {
+        margin-top: 50px;
+        height: 600px;
+        background-color: #EEEDF0;
+    }
+    
+    .cuerpoTextoDiseñoGrafico {
+       margin-top: 40px;
+       margin-left: 0px;
+    }
+
+
+    .sectionCoachingVocal {
+        height: 600px;
+        background-color: #4A8C86;
+        
+    }
+    
+    .containerCoachingVocal {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    .cuerpoTextoCoachingVocal {
+        margin-top: 40px;
+    }
+
+    .sectionProduccionAudiovisual {
+        height: 600px;
+        
+    }
+    
+    .containerProduccionAudiovisual {
+        height: 680px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+
 }
 
 
 
-
-
-
-
-
-
-/* Medias queries */
 
 @media screen and (max-width: 800px) {
 
@@ -574,6 +678,8 @@ body {
         justify-content: space-evenly;
         height: 1300px;
     }
+
+
 
     .NuestrosServiciosContainer {
         display: flex;
@@ -613,4 +719,52 @@ body {
     .containerPrincipal {
         height: 1300px;
     }
+
+    
+    .containerDiseñoGrafico {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .cuerpoTextoDiseñoGrafico {
+        width: 480px;
+        height: 500px;
+        margin-left: 10px;
+       
+    }
+    
+    .sectionCoachingVocal {
+        height: 700px;
+    }
+
+    .containerCoachingVocal {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .cuerpoTextoCoachingVocal {
+        width: 480px;
+        height: 500px;
+        margin-left: 10px;
+       
+    }
+
+    .sectionProduccionAudiovisual {
+        height: 700px;
+    }
+
+    .containerProduccionAudiovisual {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+  
 }
