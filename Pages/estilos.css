@@ -431,7 +431,7 @@ body {
 
 .imagenDiseñoGrafico:hover {
     opacity: 0.7;
-    
+
 }
 
 .cuerpoTextoDiseñoGrafico h5 {
@@ -457,7 +457,7 @@ body {
 .sectionCoachingVocal {
     height: 400px;
     background-color: #4A8C86;
-    
+
 }
 
 .containerCoachingVocal {
@@ -500,6 +500,50 @@ body {
     align-items: center;
 }
 
+/* Nosotros html */
+
+.nosotrosContainerPrincipal {
+    margin-top: 0px;
+    padding: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+
+
+}
+
+.cuerpoTextoIzquierda {
+    width: 50%;
+    height: 450px;
+    color: #EEEDF0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    line-height: 2;
+
+}
+
+.tituloCuerpoTextoIzquierda {
+    width: 240px;
+    border-bottom: solid 5px #4A8C86;
+    margin-bottom: 20px;
+}
+
+.misionCuerpoTextoIzquierda {
+    width: 80px;
+    border-bottom: solid 5px #4A8C86;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagenNosotrosDerecha {
+    margin-right: 30px;
+}
 
 @media screen and (max-width: 1300px) {
 
@@ -614,19 +658,19 @@ body {
         height: 600px;
         background-color: #EEEDF0;
     }
-    
+
     .cuerpoTextoDiseñoGrafico {
-       margin-top: 40px;
-       margin-left: 0px;
+        margin-top: 40px;
+        margin-left: 0px;
     }
 
 
     .sectionCoachingVocal {
         height: 600px;
         background-color: #4A8C86;
-        
+
     }
-    
+
     .containerCoachingVocal {
         height: 600px;
         display: flex;
@@ -634,16 +678,16 @@ body {
         flex-wrap: nowrap;
         align-items: center;
     }
-    
+
     .cuerpoTextoCoachingVocal {
         margin-top: 40px;
     }
 
     .sectionProduccionAudiovisual {
         height: 600px;
-        
+
     }
-    
+
     .containerProduccionAudiovisual {
         height: 680px;
         display: flex;
@@ -651,8 +695,25 @@ body {
         flex-wrap: nowrap;
         align-items: center;
     }
-    
 
+    .nosotrosContainerPrincipal {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1400px;
+    }
+
+    .cuerpoTextoIzquierda {
+        margin-top: 30px;
+        width: 80%;
+        order: 2;
+    }
+
+    .imagenNosotrosDerecha {
+        width: 400px;
+        height: 370px;
+    }
 }
 
 
@@ -720,7 +781,7 @@ body {
         height: 1300px;
     }
 
-    
+
     .containerDiseñoGrafico {
         height: 600px;
         display: flex;
@@ -733,9 +794,9 @@ body {
         width: 480px;
         height: 500px;
         margin-left: 10px;
-       
+
     }
-    
+
     .sectionCoachingVocal {
         height: 700px;
     }
@@ -752,7 +813,7 @@ body {
         width: 480px;
         height: 500px;
         margin-left: 10px;
-       
+
     }
 
     .sectionProduccionAudiovisual {
@@ -766,5 +827,27 @@ body {
         flex-wrap: nowrap;
         align-items: center;
     }
-  
+
+    .nosotrosContainerPrincipal {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 1700px;
+    }
+
+    .cuerpoTextoIzquierda {
+        margin-top: 30px;
+        width: 80%;
+        order: 2;
+    }
+
+    .imagenNosotrosDerecha {
+        margin-left: 0px;
+        width: 250px;
+        height: 231px;
+    }
+
 }
