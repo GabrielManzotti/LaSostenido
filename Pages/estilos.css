@@ -935,6 +935,11 @@ body {
     .bodyQuienesSomosImagen {
         display: none;
     }
+
+    .imagenNosotrosDerecha {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
