@@ -468,9 +468,8 @@ body {
 }
 
 .cuerpoTextoDiseñoGrafico {
-    width: 65%;
-    margin-left: 70px;
-    padding-top: 10px;
+    width: 100%;
+ 
 }
 
 .buttonServicios {
@@ -703,7 +702,7 @@ body {
 
     .cuerpoTextoDiseñoGrafico {
         margin-top: 40px;
-        width: 90%;
+        width: 50%;
     }
 
 
@@ -824,7 +823,6 @@ body {
     }
 
     .containerFormularioContacto {
-        margin-top: 40px;
         width: 500px;
     }
 
@@ -841,19 +839,13 @@ body {
         align-items: center;
     }
 
-    .cuerpoTextoDiseñoGrafico {
-        width: 480px;
-        height: 500px;
-        margin-left: 10px;
-
-    }
-
+   
     .sectionCoachingVocal {
-        height: 700px;
+        height: 500px;
     }
 
     .containerCoachingVocal {
-        height: 600px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -907,7 +899,14 @@ body {
     }
 
     .widthGallery {
-        width: 80%;
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+         
+    }
+
+    .row {
+        --bs-gutter-x: 0px;
     }
 
     .sectionFormulario {
@@ -936,10 +935,29 @@ body {
         display: none;
     }
 
-    .imagenNosotrosDerecha {
-        display: none;
+    .trabajosContainerPrincipal {
+        width: 100%;
     }
 
+    .imagenDiseñoGrafico {
+        display: none;
+    }
+    
+    .cuerpoTextoDiseñoGrafico {
+        width: 80%;
+    }
+
+    .cuerpoTextoCoachingVocal {
+        width: 80%;
+    }
+    
+    .sectionDiseñoGrafico {
+        height: 500px;
+    }
+
+    .tituloProduccionAudiovisual {
+        width: 280px;
+    }
 }
 
 @media screen and (max-width: 500px) {
