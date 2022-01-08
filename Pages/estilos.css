@@ -468,8 +468,8 @@ body {
 }
 
 .cuerpoTextoDiseñoGrafico {
-    width: 100%;
- 
+    width: 65%;
+    margin-left: 70px;
 }
 
 .buttonServicios {
@@ -945,6 +945,7 @@ body {
     
     .cuerpoTextoDiseñoGrafico {
         width: 80%;
+        margin-left: 10px;
     }
 
     .cuerpoTextoCoachingVocal {
@@ -956,7 +957,7 @@ body {
     }
 
     .tituloProduccionAudiovisual {
-        width: 280px;
+        width: 150px;
     }
 }
 
