@@ -10,7 +10,13 @@ a {
 
 }
 
+a:hover {
+    color: #4a8c86;
+}
 
+.navbar .nav-item:hover .nav-link{  
+    color:#4a8c86;
+ }
 
 .bgHeader {
     background-color: black;
@@ -62,7 +68,7 @@ body {
 
 .quienesSomosCuerpoIzquierda {
 
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,6 +108,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: solid 3px black;
@@ -114,24 +121,26 @@ body {
     color: white
 }
 
-.bodyNuestrosServicios h2 {
-    padding: 30px;
 
+.tituloNuestrosServicios {
+    margin-top: 70px;
+    width: 320px;
+    border-bottom: solid 5px white;
 }
 
 
 .NuestrosServiciosContainer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 50px;
     justify-content: center;
-    height: 400px;
+    height: 500px;
     align-items: center;
 }
 
 .nuestrosServiciosDiseño {
-    width: 29%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -165,7 +174,7 @@ body {
 
 
 .nuestrosServiciosAudiovisual {
-    width: 29%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -180,7 +189,7 @@ body {
 }
 
 .nuestrosServiciosCoaching {
-    width: 29%;
+    width: 40%;
     padding-left: 25px;
     display: flex;
     flex-direction: column;
@@ -198,12 +207,19 @@ body {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     font-size: 1.25rem;
+    margin-bottom: 40px;
 }
 
 .divEnlaceServicios {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
+}
+
+
+.tituloServicios {
+    width: 300px;
+    border-bottom: solid 3px white;
+    margin-bottom: 10px;
 }
 
 .footer {
@@ -246,7 +262,10 @@ body {
 .footerMapa ul li {
     text-decoration: none;
     list-style-type: none;
+    
 }
+
+
 
 
 .footerContacto {
@@ -276,7 +295,9 @@ body {
 
 }
 
-
+.logoRSFooter:hover {
+    opacity: 0.5;
+}
 
 
 /* Estilos /Contacto */
@@ -437,21 +458,30 @@ body {
 .cuerpoTextoDiseñoGrafico h5 {
 
     font-weight: bold;
+    
+}
+
+.cuerpoTextoDiseñoGrafico p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.20rem;
 }
 
 .tituloDiseñoGrafico {
-    width: 200px;
-    border-bottom: solid 1px black;
+    width: 190px;
+    border-bottom: solid 2px black;
     margin-bottom: 20px;
 }
 
 .cuerpoTextoDiseñoGrafico {
-    width: 700px;
+    width: 65%;
     margin-left: 70px;
+    padding-top: 10px;
 }
 
 .buttonServicios {
-    margin-top: 20px;
+    margin-top: 30px;
+    
 }
 
 .sectionCoachingVocal {
@@ -470,15 +500,23 @@ body {
 }
 
 .cuerpoTextoCoachingVocal {
-    width: 700px;
+    width: 65%;
     margin-left: 70px;
     color: #EEEDF0;
+    padding-top: 20px;
+}
+
+.cuerpoTextoCoachingVocal p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.20rem;
 }
 
 .tituloCoachingVocal {
+    
     width: 200px;
-    border-bottom: solid 1px #EEEDF0;
-    margin-bottom: 20px;
+    border-bottom: solid 2px #EEEDF0;
+    margin-bottom: 30px;
 }
 
 .cuerpoTextoCoachingVocal h5 {
@@ -500,27 +538,35 @@ body {
     align-items: center;
 }
 
+.tituloProduccionAudiovisual {
+    padding-top: 15px;
+    width: 300px;
+    border-bottom: solid 2px black;
+    margin-bottom: 20px;
+}
+
 /* Nosotros html */
 
 .nosotrosContainerPrincipal {
-    margin-top: 0px;
+    margin-top: 60px;
     padding: 20px;
-    height: 700px;
+    height: 850px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: center;
-    background-color: black;
+    align-items: flex-start;
+
 
 
 }
 
 .cuerpoTextoIzquierda {
     width: 50%;
-    height: 450px;
-    color: #EEEDF0;
+    height: 600px;
+    color: black;
     display: flex;
+    font-size: 1.25rem;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 20px;
@@ -544,6 +590,8 @@ body {
 .imagenNosotrosDerecha {
     margin-right: 30px;
 }
+
+
 
 @media screen and (max-width: 1300px) {
 
@@ -661,7 +709,7 @@ body {
 
     .cuerpoTextoDiseñoGrafico {
         margin-top: 40px;
-        margin-left: 0px;
+        width: 90%;
     }
 
 
@@ -681,6 +729,7 @@ body {
 
     .cuerpoTextoCoachingVocal {
         margin-top: 40px;
+        width: 90%;
     }
 
     .sectionProduccionAudiovisual {
@@ -701,16 +750,17 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 1400px;
+        height: 1600px;
     }
 
     .cuerpoTextoIzquierda {
-        margin-top: 30px;
+        margin-top: 0px;
         width: 80%;
         order: 2;
     }
 
     .imagenNosotrosDerecha {
+        margin-top: -50px;
         width: 400px;
         height: 370px;
     }
@@ -829,17 +879,17 @@ body {
     }
 
     .nosotrosContainerPrincipal {
-        margin-top: 0px;
+        margin-top: -350px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: flex-start;
-        height: 1700px;
+        height: 2400px;
     }
 
     .cuerpoTextoIzquierda {
-        margin-top: 30px;
+        margin-top: -500px;
         width: 80%;
         order: 2;
     }
@@ -848,6 +898,11 @@ body {
         margin-left: 0px;
         width: 250px;
         height: 231px;
+    }
+
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
     }
 
 }
