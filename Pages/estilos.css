@@ -14,9 +14,9 @@ a:hover {
     color: #4a8c86;
 }
 
-.navbar .nav-item:hover .nav-link{  
-    color:#4a8c86;
- }
+.navbar .nav-item:hover .nav-link {
+    color: #4a8c86;
+}
 
 .bgHeader {
     background-color: black;
@@ -93,14 +93,7 @@ body {
     margin-bottom: 50px;
 }
 
-.bodyQuienesSomosImagen {
 
-    margin-right: 60px;
-
-    max-width: 100%;
-    width: 100%;
-
-}
 
 
 .bodyNuestrosServicios {
@@ -130,6 +123,7 @@ body {
 
 
 .NuestrosServiciosContainer {
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -262,7 +256,7 @@ body {
 .footerMapa ul li {
     text-decoration: none;
     list-style-type: none;
-    
+
 }
 
 
@@ -458,7 +452,7 @@ body {
 .cuerpoTextoDiseñoGrafico h5 {
 
     font-weight: bold;
-    
+
 }
 
 .cuerpoTextoDiseñoGrafico p {
@@ -481,7 +475,7 @@ body {
 
 .buttonServicios {
     margin-top: 30px;
-    
+
 }
 
 .sectionCoachingVocal {
@@ -513,7 +507,7 @@ body {
 }
 
 .tituloCoachingVocal {
-    
+
     width: 200px;
     border-bottom: solid 2px #EEEDF0;
     margin-bottom: 30px;
@@ -673,20 +667,20 @@ body {
 
     .nuestrosServiciosDiseño {
         width: 100%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .nuestrosServiciosCoaching {
         width: 100%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .nuestrosServiciosAudiovisual {
         width: 100%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .divEnlaceServicios {
@@ -777,7 +771,7 @@ body {
 
 
     .bodyQuienesSomos {
-        height: 900px;
+        height: 500px;
 
     }
 
@@ -787,7 +781,8 @@ body {
         flex-flow: column;
         align-items: center;
         justify-content: space-evenly;
-        height: 1300px;
+        height: 1500px;
+        font-size: 1rem;
     }
 
 
@@ -798,8 +793,14 @@ body {
         align-items: center;
         justify-content: space-evenly;
         height: 5000px;
+        width: 100%;
 
     }
+
+    .NuestrosServiciosContainer {
+        width: 100%;
+    }
+
 
     .divEnlaceServicios {
         margin-top: 0%;
@@ -812,13 +813,13 @@ body {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 100%;
 
     }
 
     .contactoBodyMapMapa {
 
-        width: 400px;
+        width: 100%;
 
     }
 
@@ -903,6 +904,62 @@ body {
     .footerContainer {
         display: flex;
         flex-direction: column;
+    }
+
+    .widthGallery {
+        width: 80%;
+    }
+
+    .sectionFormulario {
+        width: 100%;
+    }
+    
+    .containerFormularioContacto {
+        width: 100%;
+    }
+
+    .contactoBodyMap {
+        width: 80%;
+    }
+
+    .divContacto {
+        width: 100%;
+    }
+
+    .divContacto p {
+        font-size: 16px;
+        padding-bottom: 20px;
+        
+    }
+
+    .bodyQuienesSomosImagen {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .bodyQuienesSomosImagen {
+        .width 80%;
+    }
+
+    .footerContainer {
+        font-size: 1rem;
+    }
+
+    .nosotrosContainerPrincipal {
+        height: 1700px;
+    }
+
+    .cuerpoTextoIzquierda {
+        font-size: 1rem;
+
+        margin-top: -200px;
+
+    }
+
+    .imagenNosotrosDerecha {
+        display: none;
     }
 
 }
