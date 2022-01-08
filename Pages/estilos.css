@@ -937,3 +937,29 @@ body {
     }
 }
 
+@media screen and (max-width: 500px) {
+
+    .bodyQuienesSomosImagen {
+        width: 80%;
+    }
+
+    .footerContainer {
+        font-size: 1rem;
+    }
+
+    .nosotrosContainerPrincipal {
+        height: 1700px;
+    }
+
+    .cuerpoTextoIzquierda {
+        font-size: 1rem;
+
+        margin-top: -200px;
+
+    }
+
+    .imagenNosotrosDerecha {
+        display: none;
+    }
+
+}
